@@ -114,6 +114,66 @@ header a:hover{
 	width: 80%;
 }
 
+/* Boxes */
+#boxes{
+	margin-top: 1%;
+	display: flex;
+	flex-direction: row;
+	
+
+
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+	width: 30%;
+	padding: 1%;
+	border-top-style: dotted;
+	border-right-style: solid;
+	border-bottom-style: dotted;
+	border-left-style: solid;
+	border-radius: 7px;
+	background-color: grey;
+	border-color: yellow;
+
+
+}
+
+#boxes h3{
+	font-size: 30px;
+	font-family: areial;
+	color: white;
+}
+
+#boxes p{
+	margin: 2px;
+	color: yellow;
+}
+
+#boxes img{
+	height: 100px;
+	width: 55%;
+	padding: 2%;
+	
+
+
+}
+
+/* social media */
+.top-sider {
+	width: 12%;
+	height: 40%;
+	background-color: orange;
+}
+
+.top-sider a img{
+	height: 35px;
+	margin: 0 0 0 4px;
+	padding: 1px 1px 1px 1px;
+}
+
+
 /* footer */
 footer{
 	padding: 20px;
@@ -123,3 +183,17 @@ footer{
 	text-align: center;
 
 }
+
+}
+
+ @media	(max-width:768px){
+ 	header .container{
+ 		display: flex;
+ 		flex-direction: column;
+ 	
+ 	}
+ 	nav{
+ 		//background: green;
+ 	}
+
+ }
