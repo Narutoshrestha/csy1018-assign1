@@ -1,0 +1,125 @@
+body{
+	font-family: Arial, Helvetica, Sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+/* Golobal */
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+
+.button_1{
+	height: 2%;
+	background: #e8491d;
+	border: 0;
+	padding-left: 2%;
+	padding-right: 2%;
+	color: #ffffff;
+}
+/* Header */
+header{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 3%;
+	min-height: 4%;
+	border-bottom: #e8491d 3px solid;
+}
+
+header a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul{
+	margin: 0;
+	padding: 0;
+}
+
+header li{
+     display: flex;
+     flex-direction: row;
+	display: inline;
+	padding: 0 20px 0 20px;
+
+}
+
+header #branding{
+	display: inline;
+}
+
+#branding img{
+	height: 80px;
+	
+}
+
+header #branding h1{
+	margin: 0;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header.highlight, header .current a{
+	color: #e8491d;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+/* showcase */
+#showcase{
+	width: 100%;
+	padding-left: 9%;
+}
+
+/* newsletter */
+#newsletter{
+	padding: 15px;
+	color: #ffffff;
+	background: #35424a;
+	margin-top: 2%%;
+}
+
+#newsletter h1{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    display: inline;
+}
+
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+
+#newsletter input[type:"email"]{
+	padding: 1%;
+	height: 5%;
+	width: 80%;
+}
+
+/* footer */
+footer{
+	padding: 20px;
+	margin-top: 20px;
+	color: #ffffff;
+	background-color: #e8491d;
+	text-align: center;
+
+}
