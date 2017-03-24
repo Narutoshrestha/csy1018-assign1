@@ -85,21 +85,21 @@ header a:hover{
 /* showcase */
 #showcase{
 	 
-	height: 250px;
+	height: 300px;
 	width: 100%;
-	padding: 2%;
+	padding: 4%;
+	padding-bottom: 2%;
 	animation-name:slider1;
-	animation-duration:4s;
+	animation-duration:5s;
 	animation-iteration-count: infinite;
 	background: url(../image/sun.jpg) no-repeat center;
-	background: url(../image/sky.jpg) no-repeat center;
 	background-size: cover;
-	animation-duration: 4s;
 	//position: absolute;
 }
 
 @keyframes slider1{
 	0%{background: url(../image/sun.jpg) no-repeat center;}
+	15%{background: url(../image/sun.jpg) no-repeat center;}
 	25%{background: url(../image/sky.jpg) no-repeat center;}
 	50%{background: url(../image/water.jpg) no-repeat center;}
 	75%{background: url(../image/chandra.jpg) no-repeat center;}
