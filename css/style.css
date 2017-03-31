@@ -225,6 +225,31 @@ header a:hover{
     background-color: blue;
 }
 
+
+/* biography */
+
+#main-col{
+	display: flex;
+	flex-direction: row;
+}
+#main-col h1{
+     font-size: 30px;
+     font-family: areial;
+}
+
+#main-col p{
+	font-size: 20px;
+	padding-left: 10px;
+	margin-left: 1px;
+	background-color: grey;
+}
+
+#main-col img{
+	height: 150px;
+	display: inline;
+
+}
+
 /* Curriculum Vitae */
 .flex-container {
     display: -webkit-flex;
