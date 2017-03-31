@@ -225,6 +225,33 @@ header a:hover{
     background-color: blue;
 }
 
+/* Curriculum Vitae */
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    width: 85%;
+    height: 320px;
+    background-color: lightgrey;
+    padding-left: 2%;
+}
+
+.flex-item {
+    background-color: cornflowerblue;
+    width: 75%;
+    height: 300px;
+    margin: 10px;
+}
+
+.flex-item p{
+	padding-left: 2%;
+}
+
+.flex-item h2{
+	text-align: center;
+}
+
 
 /* footer */
 footer{
