@@ -166,19 +166,37 @@ header a:hover{
 	color: white;
 }
 
+#boxes .container :hover{
+	background-color: rgba(0,0,0,0.9);
+	transition: 2s;
+
+}
+
+#boxes h3{
+	font-size: 30px;
+	font-family: areial;
+	color: white;
+}
+
 #boxes p{
 	margin: 2px;
 	color: yellow;
 }
 
 #boxes img{
-	height: 100px;
+    height: 100px;
 	width: 55%;
 	padding: 2%;
-	
+    transition: width 2s, height 4s;
 
 
 }
+
+#boxes img:hover {
+    width: 300px;
+    height: 250px;
+} 
+
 
 /* social media */
 .top-sider {
